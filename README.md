@@ -50,15 +50,15 @@ Building with capacitor
 npm run build:capacitor
 ```
 
-### Opening
+### Platform IDE's
 
-Opening in [Android Studio](https://developer.android.com/studio):
+Open in [Android Studio](https://developer.android.com/studio):
 
 ```
 npm run open:android
 ```
 
-Opening in [Xcode](https://developer.apple.com/xcode/):
+Open in [Xcode](https://developer.apple.com/xcode/):
 
 ```
 npm run open:ios
