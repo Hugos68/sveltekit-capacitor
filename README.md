@@ -1,4 +1,4 @@
-# capacitor-sveltekit
+# sveltekit-capacitor
 
 Template for building a SvelteKit SPA with Capacitor.
 
