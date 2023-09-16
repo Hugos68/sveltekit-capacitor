@@ -4,6 +4,12 @@ Template for building a Sveltekit SPA with Capacitor using Typescript.
 
 ## Getting Started
 
+### Installing Dependencies
+
+```
+pnpm i
+```
+
 ### Adding/Removing platforms
 
 Adding Android:
