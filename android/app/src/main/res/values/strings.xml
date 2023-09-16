@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sveltekit-capacitor</string>
+    <string name="title_activity_main">sveltekit-capacitor</string>
+    <string name="package_name">hugos.sk.com</string>
+    <string name="custom_url_scheme">hugos.sk.com</string>
+</resources>
