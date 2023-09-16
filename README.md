@@ -33,6 +33,7 @@ In order to enable live/hot reload you need to follow these steps:
 ### 1. Getting your host URL
 
 Run the following command to start and host the dev server:
+
 ```
 npm run dev -- --host
 ```
@@ -73,3 +74,11 @@ npx cap sync
 Your live/hot reload is now ready, you can open your preferred platform IDE and run the app, any changes you make to the code will be reflected in the app without requiring you to restart it.
 
 Keep in mind that the network url is dependant on your network so if you change networks you will need to repeat step 2. Because your IP is sensitive information, you should not commit the changed configuration to your version control system.
+
+## Questions
+
+For further questions about Capacitor you can refer to the [Capacitor Documentation](https://capacitorjs.com/docs).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
