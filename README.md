@@ -70,10 +70,9 @@ npm run open:ios
 
 In order to enable live/hot reload you need to follow these steps:
 
-### 1. Start the dev server with host flag
+### 1. Getting your host URL
 
-Start the dev server with the host flag:
-
+Run the following command to start and host the dev server:
 ```
 npm run dev -- --host
 ```
@@ -87,7 +86,7 @@ Your dev server should now start and you should see a message like this:
 
 Copy the network url before moving on to the next step.
 
-### 2. Configure Capacitor
+### 2. Configure the Capacitor configuration
 
 Locate your `capacitor.config.ts` and set the `server.url` property to the network url from the previous step and set `server.cleartext` to `true`.
 
@@ -101,7 +100,7 @@ const config: CapacitorConfig = {
 };
 ```
 
-### 3. Sync the config with capacitor
+### 3. Syncing the Capacitor configuration
 
 To ensure capacitor is using the latest config, run the following command:
 
