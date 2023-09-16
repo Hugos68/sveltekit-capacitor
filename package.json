@@ -13,14 +13,6 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"add:android": "npm install @capacitor/android && npx cap add android",
-		"add:ios": "npm install @capacitor/android && npx cap add ios",
-		"remove:android": "npm run rmdir -- android && npm uninstall @capacitor/android",
-		"remove:ios": "npm run rmdir -- ios && npm uninstall @capacitor/ios",
-		"open:android": "npx cap open android",
-		"open:ios": "npx cap open ios",
-		"sync": "npx cap sync",
-		"rmdir": "node -e \"var fs = require('fs');process.argv.slice(1).map((fpath)=>{ try {fs.rmdirSync(fpath,{recursive: true})} catch(e){console.warn('Error folder:', fpath, e)}});process.exit(0);\""
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
