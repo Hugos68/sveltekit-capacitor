@@ -4,9 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npx cap sync",
-		"build:android": "vite build && npx cap sync && npx cap open android",
-		"build:ios": "vite build && npx cap sync && npx cap open ios",
+		"build": "vite build",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -14,7 +12,15 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"add:android": "npx cap add android",
+		"add:ios": "npx cap add ios",
+		"remove:android": "npm run rmdir -- android",
+		"remove:ios": "npm run rmdir -- ios",
+		"build:capacitor": "npm run build && npx cap sync",
+		"open:android": "npx cap open android",
+		"open:ios": "npx cap open ios",
+		"rmdir": "node -e \"var fs = require('fs');process.argv.slice(1).map((fpath)=>{ try {fs.rmdirSync(fpath,{recursive: true})} catch(e){console.warn('Error folder:', fpath, e)}});process.exit(0);\""
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
