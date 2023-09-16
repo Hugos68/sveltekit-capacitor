@@ -47,14 +47,12 @@ pnpm build:capacitor
 
 ### Opening
 
-Opening in Android Studio:
+Opening in [Android Studio](https://developer.android.com/studio):
 ```
 pnpm open:android
 ```
 
-Opening in Xcode:
+Opening in [Xcode](https://developer.apple.com/xcode/):
 ```
 pnpm open:ios
 ```
-
-
