@@ -18,47 +18,13 @@ Includes the following:
 ### Installing Dependencies
 
 ```
-npm i
-```
-
-### Adding platforms
-
-```
-npm run add:android
-```
-
-```
-npm run add:ios
-```
-
-### Removing platforms
-
-```
-npm run remove:android
-```
-
-```
-npm run remove:ios
+npm install
 ```
 
 ## Building
 
 ```
 npm run build
-```
-
-## Platform IDE's
-
-### Open in [Android Studio](https://developer.android.com/studio):
-
-```
-npm run open:android
-```
-
-### Open in [Xcode](https://developer.apple.com/xcode/):
-
-```
-npm run open:ios
 ```
 
 ## Live/Hot Reload
@@ -100,7 +66,7 @@ const config: CapacitorConfig = {
 To ensure capacitor is using the latest config, run the following command:
 
 ```
-npm run sync:cap
+npx cap sync
 ```
 
 ### 4. Run the app
