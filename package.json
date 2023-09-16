@@ -17,9 +17,11 @@
 		"add:ios": "npm install @capacitor/android && npx cap add ios",
 		"remove:android": "npm run rmdir -- android && npm uninstall @capacitor/android",
 		"remove:ios": "npm run rmdir -- ios && npm uninstall @capacitor/ios",
-		"build:capacitor": "npm run build && npx cap sync",
+		"build:android": "npm run build && npx cap sync android",
+		"build:ios": "npm run build && npx cap sync ios",
 		"open:android": "npx cap open android",
 		"open:ios": "npx cap open ios",
+		"sync:cap": "npx cap sync",
 		"rmdir": "node -e \"var fs = require('fs');process.argv.slice(1).map((fpath)=>{ try {fs.rmdirSync(fpath,{recursive: true})} catch(e){console.warn('Error folder:', fpath, e)}});process.exit(0);\""
 	},
 	"devDependencies": {
