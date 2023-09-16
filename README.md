@@ -92,10 +92,13 @@ Copy the network url before moving on to the next step.
 Locate your `capacitor.config.ts` and set the `server.url` property to the network url from the previous step and set `server.cleartext` to `true`.
 
 ```ts
-server: {
-    url: /* dev server URL */,
-    cleartext: true
-}
+const config: CapacitorConfig = {
+	// ...
+	server: {
+		url: /* dev server URL */,
+		cleartext: true
+	}
+};
 ```
 
 ### 3. Sync the config with capacitor
