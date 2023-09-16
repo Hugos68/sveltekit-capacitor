@@ -40,13 +40,13 @@ npm run remove:ios
 
 ## Building
 
-### Building for Android
+### Building Android
 
 ```
 npm run build:android
 ```
 
-####  Building for IOS
+### Building IOS
 
 ```
 npm run build:ios
