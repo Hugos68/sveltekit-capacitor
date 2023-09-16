@@ -13,10 +13,10 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"add:android": "npx cap add android",
-		"add:ios": "npx cap add ios",
-		"remove:android": "npm run rmdir -- android",
-		"remove:ios": "npm run rmdir -- ios",
+		"add:android": "npm install @capacitor/android && npx cap add android",
+		"add:ios": "npm install @capacitor/android && npx cap add ios",
+		"remove:android": "npm run rmdir -- android && npm uninstall @capacitor/android",
+		"remove:ios": "npm run rmdir -- ios && npm uninstall @capacitor/ios",
 		"build:capacitor": "npm run build && npx cap sync",
 		"open:android": "npx cap open android",
 		"open:ios": "npx cap open ios",
@@ -43,9 +43,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@capacitor/android": "^5.4.0",
 		"@capacitor/cli": "^5.4.0",
-		"@capacitor/core": "^5.4.0",
-		"@capacitor/ios": "^5.4.0"
+		"@capacitor/core": "^5.4.0"
 	}
 }
