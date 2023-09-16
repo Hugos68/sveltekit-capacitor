@@ -8,8 +8,7 @@ Template for building a SvelteKit SPA with Capacitor.
 Includes the following:
 
 - Typescript
-- Barebone SvelteKit project using [`adapter-static`](https://kit.svelte.dev/docs/adapter-static)
-- Custom scripts for ease of use
+- Seemless integration with SvelteKit
 
 ## Getting Started
 
