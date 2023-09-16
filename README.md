@@ -112,4 +112,4 @@ npm run sync:cap
 
 Your live/hot reload is now ready, you can open your preferred platform IDE and run the app, any changes you make to the code will be reflected in the app without requiring you to restart it.
 
-Keep in mind that the network url is dependant on your network so if you change networks you will need to repeat step 2. Because your IP is sensitive information, you should not commit the changes to your version control system.
+Keep in mind that the network url is dependant on your network so if you change networks you will need to repeat step 2. Because your IP is sensitive information, you should not commit the changed configuration to your version control system.
