@@ -40,16 +40,8 @@ npm run remove:ios
 
 ## Building
 
-### Building Android
-
 ```
-npm run build:android
-```
-
-### Building IOS
-
-```
-npm run build:ios
+npm run build
 ```
 
 ## Platform IDE's
