@@ -7,7 +7,7 @@ Template for building a Sveltekit SPA with Capacitor using Typescript.
 ### Installing Dependencies
 
 ```
-pnpm i
+npm i
 ```
 
 ### Adding/Removing platforms
@@ -15,25 +15,25 @@ pnpm i
 Adding Android:
 
 ```
-pnpm add:android
+npm run add:android
 ```
 
 Adding IOS:
 
 ```
-pnpm add:ios
+npm run add:ios
 ```
 
 Removing Android:
 
 ```
-pnpm remove:android
+npm run remove:android
 ```
 
 Removing IOS:
 
 ```
-pnpm remove:ios
+npm run remove:ios
 ```
 
 ### Building
@@ -41,13 +41,13 @@ pnpm remove:ios
 Building without capacitor:
 
 ```
-pnpm build
+npm run build
 ```
 
 Building with capacitor
 
 ```
-pnpm build:capacitor
+npm run build:capacitor
 ```
 
 ### Opening
@@ -55,11 +55,11 @@ pnpm build:capacitor
 Opening in [Android Studio](https://developer.android.com/studio):
 
 ```
-pnpm open:android
+npm run open:android
 ```
 
 Opening in [Xcode](https://developer.apple.com/xcode/):
 
 ```
-pnpm open:ios
+npm run open:ios
 ```
