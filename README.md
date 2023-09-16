@@ -40,21 +40,13 @@ npm run remove:ios
 
 ## Building
 
-### Building w/o Capacitor
-
-```
-npm run build
-```
-
-### Building w/ capacitor
-
-#### Android
+### Building for Android
 
 ```
 npm run build:android
 ```
 
-#### IOS
+####  Building for IOS
 
 ```
 npm run build:ios
