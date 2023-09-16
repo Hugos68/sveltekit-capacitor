@@ -85,7 +85,7 @@ Your dev server should now start and you should see a message like this:
   > - Network: http://<ip>:<port>/
 ```
 
-Copy the network url for the next step.
+Copy the network url before moving on to the next step.
 
 ### 2. Configure Capacitor
 
