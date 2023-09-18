@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "vite dev",
 		"dev:cap": "node scripts/hotreload.js && npx cap sync && node scripts/hotreload-cleanup.js && vite dev --host",
-		"build": "vite build && npx cap sync",
+		"build": "vite build",
+		"build:cap": "vite build && npx cap sync",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

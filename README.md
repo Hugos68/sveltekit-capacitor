@@ -30,7 +30,7 @@ npm run dev:cap
 ## Building
 
 ```
-npm run build
+npm run build:cap
 ```
 
 ## Questions
