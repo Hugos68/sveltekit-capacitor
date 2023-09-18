@@ -35,7 +35,7 @@ In order to enable live/hot reload you need to follow these steps:
 Run the following command to start and host the dev server:
 
 ```
-npm run dev -- --host
+npm run dev --host
 ```
 
 Your dev server should now start and you should see a message like this:
