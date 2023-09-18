@@ -2,13 +2,14 @@ import fs from 'fs';
 import os from 'os';
 
 const capacitorConfigRaw = fs.readFileSync('./capacitor.config.json');
+fs.writeFileSync(`./capacitor.config.json.timestamp-${Date.now()}`, capacitorConfigRaw);
 const config = JSON.parse(capacitorConfigRaw);
 
 if (!config.server) config.server = {};
 config.server.url = `http://${getIp()}:${getPort()}/`;
 config.server.cleartext = true;
 
-fs.writeFile('./capacitor.config.json', JSON.stringify(config, null, '\t'), (err) => {
+fs.writeFile('./capacitor.config.json', JSON.stringify(config), (err) => {
 	if (err) {
 		console.error(err);
 		return;

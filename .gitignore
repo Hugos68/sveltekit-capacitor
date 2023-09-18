@@ -12,3 +12,4 @@ vite.config.ts.timestamp-*
 # Capacitor
 /android
 /ios
+capacitor.config.json.timestamp-*
