@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"dev:cap": "node scripts/hotreload-capacitor.js && npx cap sync && vite dev --host",
+		"dev:cap": "node scripts/hotreload-setup.js && npx cap sync && node scripts/hotreload-cleanup.js && vite dev --host",
 		"build": "vite build && npx cap sync",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
