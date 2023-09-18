@@ -5,13 +5,11 @@
 
 Template for building a SvelteKit SPA with Capacitor, which includes:
 
-- Seemless integration with SvelteKit
-- Custom scripts for ease of use
-- Typescript out of the box
+- Sveltekit Integration
+- Custom scripts
+- Typescript
 
 ## Usage
-
-> Use your favorite package manager (npm, pnpm, yarn, bun, etc.)
 
 ### Installing Dependencies
 
