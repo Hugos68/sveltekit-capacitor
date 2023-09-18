@@ -3,13 +3,11 @@
 
 # sveltekit-capacitor
 
-Template for building a SvelteKit SPA with Capacitor.
+Template for building a SvelteKit SPA with Capacitor, which includes:
 
-Includes the following:
-
-- Typescript
 - Seemless integration with SvelteKit
 - Custom scripts for ease of use
+- Typescript out of the box
 
 ## Getting Started
 
