@@ -3,7 +3,7 @@
 
 # sveltekit-capacitor
 
-Template for building a SvelteKit SPA with Capacitor, which includes:
+Template for building a SvelteKit SPA with Capacitor, includes:
 
 - Sveltekit Integration
 - Custom scripts
