@@ -35,7 +35,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@capacitor/android": "^5.4.0",
 		"@capacitor/cli": "^5.4.0",
-		"@capacitor/core": "^5.4.0"
+		"@capacitor/core": "^5.4.0",
+		"@capacitor/ios": "^5.4.0"
 	}
 }
