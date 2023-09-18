@@ -5,7 +5,7 @@
 
 Template for building a SvelteKit SPA with Capacitor, includes:
 
-- Sveltekit Integration
+- Preconfigured Sveltekit to work with Capacitor
 - Custom dev and build scripts
 - Typescript out of the box
 
