@@ -19,19 +19,19 @@ npm install
 
 ## Development
 
-For live/hot reloading in Android Studio and Xcode:
+To enable live/hot reloading for Android Studio and Xcode:
 ```shell
 npm run dev:cap
 ```
 
-To develop exclusively for a Progressive Web App (PWA):
+To enable live/hot reloading for a Progressive Web App (PWA):
 ```shell
 npm run dev
 ```
 
 ## Building
 
-To create platform-specific binaries:
+To build platform-specific binaries:
 ```shell
 npm run build:cap
 ```
