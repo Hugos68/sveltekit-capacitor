@@ -13,21 +13,40 @@ Template for building a SvelteKit SPA with Capacitor, which includes:
 
 ### Installing Dependencies
 
-```
+```node
 npm install
 ```
 
-## Developing
+## Development
 
-```
+### Developing Native Platforms (Android and iOS)
+
+```shell
 npm run dev:cap
+```
+
+### Developing a Progressive Web App (PWA)
+
+```shell
+npm run dev
 ```
 
 ## Building
 
-```
+### Building Native Platforms (Android and iOS)
+
+```shell
 npm run build:cap
 ```
+
+### Building a Progressive Web App (PWA)
+
+```shell
+npm run build
+```
+
+These commands will streamline your development and building processes for different platforms, ensuring a smoother development experience.
+
 
 ## Questions
 
