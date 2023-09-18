@@ -19,34 +19,27 @@ npm install
 
 ## Development
 
-### Developing Native Platforms (Android and iOS)
-
+For live/hot reloading in Android Studio and Xcode:
 ```shell
 npm run dev:cap
 ```
 
-### Developing a Progressive Web App (PWA)
-
+To develop exclusively for a Progressive Web App (PWA):
 ```shell
 npm run dev
 ```
 
 ## Building
 
-### Building Native Platforms (Android and iOS)
-
+To create platform-specific binaries:
 ```shell
 npm run build:cap
 ```
 
-### Building a Progressive Web App (PWA)
-
+To build a Progressive Web App (PWA):
 ```shell
 npm run build
 ```
-
-These commands will streamline your development and building processes for different platforms, ensuring a smoother development experience.
-
 
 ## Questions
 
