@@ -47,7 +47,7 @@ For further questions about Capacitor you can refer to the [Capacitor Documentat
 
 ## Issues
 
-Don't hesitate to open up a new issue when running into one.
+Feel free to create a new issue if you encounter any problems or challenges.
 
 ## License
 
