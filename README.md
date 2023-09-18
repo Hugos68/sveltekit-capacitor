@@ -17,7 +17,7 @@ Includes the following:
 ### Installing Dependencies
 
 ```
-npm ins0all
+npm install
 ```
 
 ## Developing
