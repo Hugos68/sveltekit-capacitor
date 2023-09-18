@@ -6,7 +6,7 @@ const config = JSON.parse(capacitorConfigRaw);
 
 if (!config.server) config.server = {};
 config.server.url = `http://${getIp()}:${getPort()}/`;
-config.server.clearText = true;
+config.server.cleartext = true;
 
 fs.writeFile('./capacitor.config.json', JSON.stringify(config, null, '\t'), (err) => {
 	if (err) {
