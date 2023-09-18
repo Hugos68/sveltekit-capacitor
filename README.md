@@ -35,6 +35,10 @@ npm run build:cap
 
 For further questions about Capacitor you can refer to the [Capacitor Documentation](https://capacitorjs.com/docs).
 
+## Issues
+
+Don't hesitate to open up any issue's in case you run into trouble with the template.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
