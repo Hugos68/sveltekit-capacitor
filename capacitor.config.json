@@ -1,9 +1,5 @@
 {
 	"appId": "example.sveltekit.capacitor",
 	"appName": "sveltekit-capacitor",
-	"webDir": "build",
-	"server": {
-		"url": "http://192.168.188.77:5173/",
-		"clearText": true
-	}
+	"webDir": "build"
 }
