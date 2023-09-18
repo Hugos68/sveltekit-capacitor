@@ -9,6 +9,7 @@ Includes the following:
 
 - Typescript
 - Seemless integration with SvelteKit
+- Custom scripts for ease of use
 
 ## Getting Started
 
