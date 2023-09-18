@@ -1,1 +1,5 @@
-{"appId":"example.sveltekit.capacitor","appName":"sveltekit-capacitor","webDir":"build","server":{"url":"http://10.0.1.113:5173/","cleartext":true}}
+{
+	"appId": "example.sveltekit.capacitor",
+	"appName": "sveltekit-capacitor",
+	"webDir": "build"
+}

@@ -2,7 +2,7 @@ import fs from 'fs';
 import os from 'os';
 
 const capacitorConfigRaw = fs.readFileSync('./capacitor.config.json');
-fs.writeFileSync(`./capacitor.config.json.timestamp-${Date.now()}`, capacitorConfigRaw);
+fs.copyFileSync('./capacitor.config.json', `./capacitor.config.json.timestamp-${Date.now()}`);
 const config = JSON.parse(capacitorConfigRaw);
 
 if (!config.server) config.server = {};
