@@ -14,7 +14,6 @@ fs.writeFile('./capacitor.config.json', JSON.stringify(config), (err) => {
 		console.error(err);
 		return;
 	}
-	console.log('\x1b[32m√\x1b[0m Successfully configured capacitor.config.json');
 });
 
 function getIp() {
