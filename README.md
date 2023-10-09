@@ -3,6 +3,9 @@
 
 # sveltekit-capacitor
 
+> ⚠️ **Warning:**
+> This template is no longer being maintained in favor of [CapKit](https://github.com/Hugos68/capkit), which does the same job but better without having a biased preconfigured sveltekit project, CapKit is also developed by me (Hugos68) and has the same (if not more) funcitonality as this template does.
+
 Template for building a SvelteKit SPA with Capacitor, includes:
 
 - Preconfigured Sveltekit to work with Capacitor
